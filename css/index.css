@@ -1,0 +1,250 @@
+
+
+
+/*--------------------FUENTES--------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700;800&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+/*font-family: 'Dosis', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+/*----------------------------------------------*/
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+
+body {
+	background-color: black;
+	
+		
+}
+
+header {
+	background-color: white;
+
+}
+
+#izq_header {
+	margin-right: 70px;
+}
+
+
+.contenedor {
+	width: 960px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	
+}
+
+#centrar {
+	text-align: center;
+	margin-top: 70px;
+}
+
+#centrar img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+
+
+
+#flex {
+	display: flex;
+	padding: 0 65px;
+	margin-top: 150px;
+}
+
+
+#logo {
+	margin: auto;
+
+}
+
+nav {
+	padding: 10px 0 5px 0;
+	border-bottom: #978CDF 2px solid;
+	position: fixed;
+	top: 0;
+	display: block;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	z-index: 3;
+}
+
+
+#hola {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 800;
+	font-size: 85px;
+	margin: 0;
+	display: flex;
+	flex: start;
+	margin-left: 20px;
+}
+
+
+#soy {
+	font-family: dosis;
+	font-weight: 800;
+	font-size: 80px;
+	margin: 0;
+	line-height: 0;
+	margin-top: 40px;
+	display: flex;
+	flex: start;
+	margin-left: 20px;
+}
+
+
+h1 {
+	font-family: dosis;
+	font-weight: 800;
+	font-size: 75px;
+	line-height: 95px;
+	letter-spacing: 0.095em;
+	display: flex;
+	flex: start;
+	text-align: left;
+	padding: 10px 20px;
+	background-color: #3A23D7;
+	color: white;
+	margin-bottom: 0;
+	border-radius: 0 11px 11px 0;
+
+}
+
+
+#productora {
+	font-family: 'Roboto', sans-serif;;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 75px;
+	letter-spacing: 0.12em;
+	text-align: left;
+	margin: 0;
+	margin-left: 20px;
+
+}
+
+#separador {
+	margin-top: 20px;
+}
+
+
+#evie {
+	margin-top: 200px;
+	margin-left: 10px;
+}
+
+
+#sobre {
+	font-family:'Dosis', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	letter-spacing: 0.14em;
+	text-decoration: underline;
+	color: black;
+
+}
+
+#sobre:hover {
+	color: #3A23D7;
+}
+
+#mouse {
+	margin: 0;
+	animation: 1s;
+	animation-name: mouse;
+	animation-iteration-count: infinite;
+}
+
+@keyframes mouse {
+	0% {
+		opacity: 85%;
+		transform: translateY(10px);
+	}
+
+	25% {
+		opacity: 100%;
+		transform: translateY(10px);
+	}
+
+	50% {
+		opacity: 100%;
+		transform: translateY(5px);
+	}
+
+
+	100% {
+		opacity: 85%;
+		transform: translateY(10px);
+	}
+
+}
+
+
+
+#flex2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+main video {
+	margin-top: 90px;
+	text-align: center;
+	margin-bottom: 90px;
+	opacity: 0.7;
+
+}
+
+#ilustraciones {
+	margin-bottom: 65px;
+}
+
+
+#grafico {
+	margin-top: 95px;
+	margin-bottom: 95px;
+}
+
+#der_header {
+	display: flex;
+}
+
+#redes {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	left: 0;
+	top: 50%;
+
+}
+
+#redes img {
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+
+.saturacion {
+	filter: grayscale(100%);
+	transition: 0.7s;
+}
+
+.saturacion:hover {
+filter: grayscale(0%);
+
+}
+
+
+
+

@@ -1,0 +1,183 @@
+/*--------------------FUENTES--------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;700;800&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap')
+/*font-family: 'Dosis', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+/*----------------------------------------------*/
+
+
+
+
+/*---------------GENERALIDADES------------*/
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+
+body {
+	background-color: black;
+	
+		
+}
+
+header {
+	background-color: white;
+
+}
+
+.contenedor {
+	width: 960px;
+	margin: auto;
+	display: flex;
+	text-align: center;
+	
+
+	
+}
+
+nav .contenedor {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav {
+	padding: 10px 0 5px 0;
+	border-bottom: #978CDF 2px solid;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	z-index: 3;
+	display: flex;
+	align-items: center;
+	
+}
+
+nav a {
+
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	align-items: center;
+	text-decoration: none;
+	color: black;
+	padding-right: 20px;
+	padding: 0px 20px 5px 10px;
+	}
+
+nav img {
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-left: 13px;
+}
+
+nav a:hover {
+	color: #3A23D7;
+	text-decoration: underline;
+}
+
+.saturacion {
+	filter: grayscale(100%);
+	transition: 0.7s;
+}
+
+.saturacion:hover {
+filter: grayscale(0%);
+
+}
+
+
+.linea {
+	border-right: 1px solid black;
+}
+
+
+
+
+#active {
+	text-decoration: underline;
+	color: #3A23D7;
+}
+
+#redes {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	left: 0;
+	top: 50%;
+
+}
+
+#redes img {
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+
+.saturacion {
+	filter: grayscale(100%);
+	transition: 0.7s;
+}
+
+.saturacion:hover {
+filter: grayscale(0%);
+
+}
+
+
+/*-------------------------------------------------------*/
+
+main video {
+	text-align: center;
+	width: 960px;
+
+}
+
+main section {
+	margin-bottom: 90px;
+}
+
+main .contenedor {
+	margin-top: 60px;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 960px;
+}
+
+
+main {
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+
+}
+
+main h2{
+	display: block;
+	color: white;
+	width: 100%;
+	font-family: 'Dosis';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 75px;
+	line-height: 95px;
+	text-align: center;
+	letter-spacing: 0.095em;
+	text-decoration-line: underline;
+}
+main p {
+	font-family: 'Roboto';
+	color: white;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+	margin-bottom: 120px;
+}
